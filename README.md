@@ -2,7 +2,8 @@
 
 <img src="assets/header.svg" alt="Arka header" width="100%" />
 
-<img src="assets/system.svg" alt="Arka system profile" width="100%" />
+<img src="assets/portrait.svg" alt="Arka portrait" width="40.5%" />
+<img src="assets/system.svg" alt="Arka system profile" width="58%" />
 
 </div>
 
