@@ -1,67 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
-  <title id="title">Portrait assembled from falling matrix characters</title>
-  <desc id="desc">Monochrome anime-inspired portrait with animated green matrix rain.</desc>
-  <defs>
-    <linearGradient id="bg" x2="0" y2="1">
-      <stop stop-color="#071311"/>
-      <stop offset="1" stop-color="#020807"/>
-    </linearGradient>
-    <linearGradient id="skin" x2=".8" y2="1">
-      <stop stop-color="#fff"/>
-      <stop offset="1" stop-color="#b9c5c1"/>
-    </linearGradient>
-    <linearGradient id="shirt" x2="0" y2="1">
-      <stop stop-color="#182522"/>
-      <stop offset="1" stop-color="#050a09"/>
-    </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#63f5bd" stroke-opacity=".055" stroke-width="1"/>
-    </pattern>
-    <clipPath id="portraitClip">
-      <path d="M173 688 187 635q12-43 68-65l65-27 4-68q-37-23-54-67-18-8-27-33-9-24 8-34l-2-75q0-128 113-144 112-17 153 66 16 32 13 83l-1 67q15 9 8 34-7 25-26 35-14 43-53 68l2 67 70 29q51 21 65 64l15 53z"/>
-    </clipPath>
-    <style>
-      .rain { font: 16px monospace; fill: #72ffc1; opacity: .48; animation: fall 5s linear infinite; }
-      .rain2 { font: 13px monospace; fill: #38c98b; opacity: .32; animation: fall 7s linear infinite; }
-      .glow { filter: drop-shadow(0 0 7px #40ffad); }
-      @keyframes fall { from { transform: translateY(-180px); } to { transform: translateY(260px); } }
-      @media (prefers-reduced-motion: reduce) { .rain, .rain2 { animation: none; } }
-    </style>
-  </defs>
-  <rect width="720" height="720" rx="24" fill="url(#bg)"/>
-  <rect width="720" height="720" rx="24" fill="url(#grid)"/>
-  <g class="glow" aria-hidden="true">
-    <g class="rain"><text x="24" y="60">0 1 0 1 1 0 0 1 0 1 0 1</text><text x="24" y="250">1 0 1 0 0 1 1 0 1 0 1 0</text><text x="24" y="440">0 0 1 1 0 1 0 1 1 0 0 1</text></g>
-    <g class="rain2"><text x="110" y="130">1 0 1 1 0 0 1 0 1 0 1</text><text x="110" y="340">0 1 0 0 1 1 0 1 0 1 0</text><text x="110" y="550">1 1 0 1 0 1 0 0 1 1 0</text></g>
-    <g class="rain"><text x="520" y="90">1 0 0 1 0 1 1 0 1 0 1</text><text x="520" y="300">0 1 1 0 1 0 0 1 0 1 0</text><text x="520" y="510">1 0 1 0 1 1 0 0 1 0 1</text></g>
-    <g class="rain2"><text x="620" y="30">0 1 1 0 1 0 1 1 0</text><text x="620" y="250">1 0 0 1 0 1 0 1 1</text><text x="620" y="470">0 1 0 1 1 0 0 1 0</text></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="434" viewBox="0 0 360 434" role="img" aria-labelledby="title desc">
+  <title id="title">Arka's ASCII portrait</title>
+  <desc id="desc">A clear, static portrait made from ASCII characters.</desc>
+  <rect x="0.5" y="0.5" width="359" height="433" rx="14" fill="#0f1620" stroke="#1f2a37" />
+  <text x="32" y="38" fill="#5eead4" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="11" letter-spacing="1.5">ARKA / ASCII MATRIX</text>
+
+  <g fill="#5eead4" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="8" xml:space="preserve" text-anchor="middle">
+    <text x="180" y="104">
+      <tspan x="180" dy="0">:::::::.......::.......:::::::</tspan>
+      <tspan x="180" dy="11.5">........................::::::</tspan>
+      <tspan x="180" dy="11.5">.......:..........     ....:::</tspan>
+      <tspan x="180" dy="11.5">:.........:..... .#*+.-= .=.::</tspan>
+      <tspan x="180" dy="11.5">:::::::...::..--*@+:+@:.. .:.:</tspan>
+      <tspan x="180" dy="11.5">:.:::::...:::.##.**++:--=#:::::</tspan>
+      <tspan x="180" dy="11.5">::::::::-:::::.....==-::=*::::</tspan>
+      <tspan x="180" dy="11.5">:::::::...::.......-+-=#::::::</tspan>
+      <tspan x="180" dy="11.5">:::::::....--:....::::::::::=-</tspan>
+      <tspan x="180" dy="11.5">::::::...--+:..::::::::.=.::.:</tspan>
+      <tspan x="180" dy="11.5">:::::..:--:...:::::.::-::::.::</tspan>
+      <tspan x="180" dy="11.5">..:.....:...::::::.+-::::::+=:</tspan>
+      <tspan x="180" dy="11.5">===:......::::::::...:::::::++</tspan>
+      <tspan x="180" dy="11.5">==-.......:-+==..:::::....:.++</tspan>
+      <tspan x="180" dy="11.5">-+........-+-==:==-=-.    ...=</tspan>
+    </text>
   </g>
-  <g clip-path="url(#portraitClip)">
-    <rect x="160" y="90" width="410" height="610" fill="#07100e"/>
-    <g class="rain2" opacity=".55"><text x="190" y="100">1 0 1 0 1 0 1 0 1 1 0</text><text x="190" y="300">0 1 0 1 0 1 0 0 1 0 1</text><text x="190" y="500">1 0 0 1 1 0 1 0 1 0 0</text><text x="440" y="160">0 1 0 0 1 1 0 1 0 1</text><text x="440" y="380">1 0 1 0 0 1 1 0 1 0</text><text x="440" y="600">0 1 1 0 1 0 1 0 0 1</text></g>
-    <!-- shoulders and shirt -->
-    <path d="M154 720q12-101 45-137 24-25 85-45l54-21 25 37 25-37 55 21q59 20 84 45 34 36 45 137z" fill="url(#shirt)" stroke="#d8e2de" stroke-width="5"/>
-    <!-- neck -->
-    <path d="m300 476 2 82q-6 28-29 40 48 48 88 48t90-48q-25-12-30-40l-1-82z" fill="url(#skin)" stroke="#101715" stroke-width="8" stroke-linejoin="round"/>
-    <path d="M307 516q31 27 65 25 35-1 61-28l-2 53q-24 39-58 41-37-2-64-41z" fill="#77827e" opacity=".48"/>
-    <path d="M315 526v54m14-43v62m14-54v63m15-58v61m15-61v61m15-64v62m15-67v61m15-66v53" stroke="#303a36" stroke-width="5" opacity=".68"/>
-    <!-- ears and face -->
-    <path d="M261 308q-31-26-37 8-4 38 38 56m203-64q31-26 37 8 4 38-38 56" fill="url(#skin)" stroke="#111816" stroke-width="9"/>
-    <path d="M272 246q4-103 91-116 95-14 117 70l-3 116q-10 87-76 137-28 21-48 21t-48-21q-66-50-76-137z" fill="url(#skin)" stroke="#111816" stroke-width="10" stroke-linejoin="round"/>
-    <!-- hair silhouette -->
-    <path d="M248 300q-18-33-11-71-25-7-10-28-4-17 18-21-19-20 1-28 22-10 34-31-10-17 15-17 29-1 42-20 17-21 25 1 29-18 53-2 22-21 29 6 20-7 28 13 28-7 32 19 24 6 11 19 29 6 15 24-4 13 18 20 9 15 18 23 2 18 18 33l-8 59-15-26q-18-18-20-61l-11-44q-86 7-157-5-50-8-77 13-27 20-25 69l-11 60z" fill="#050807"/>
-    <path d="M278 291q31-12 68 0m55 0q37-12 68 0" fill="none" stroke="#111715" stroke-width="9" stroke-linecap="round"/>
-    <!-- eyes -->
-    <path d="M281 322q35-24 72 0-5 34-35 36-31-2-37-36zm111 0q37-24 72 0-6 34-37 36-30-2-35-36z" fill="#f9fbfa" stroke="#111715" stroke-width="7" stroke-linejoin="round"/>
-    <path d="M301 326q17-13 34 0-1 18-17 19-16-1-17-19zm111 0q17-13 34 0-1 18-17 19-16-1-17-19z" fill="#111715"/>
-    <circle cx="319" cy="330" r="5" fill="#fff"/><circle cx="430" cy="330" r="5" fill="#fff"/>
-    <path d="M290 377q27 19 54 1m53 0q27 18 54-1" fill="none" stroke="#59625f" stroke-width="7" stroke-linecap="round"/>
-    <!-- nose and mouth -->
-    <path d="M365 368q-12 28-8 42l10 5" fill="none" stroke="#303a36" stroke-width="7" stroke-linecap="round"/>
-    <path d="M328 444h75m-58 15q18 8 36 0" fill="none" stroke="#111715" stroke-width="7" stroke-linecap="round"/>
-    <!-- collar -->
-    <path d="M278 589q41 51 84 55 43-4 83-55" fill="none" stroke="#f1f5f3" stroke-width="15"/>
-  </g>
-  <path d="M24 24h36M24 24v36M696 24h-36m36 0v36M24 696h36m-36 0v-36m672 36h-36m36 0v-36" fill="none" stroke="#56efae" stroke-width="2" opacity=".7"/>
-  <text x="360" y="690" text-anchor="middle" fill="#76f8bc" font-family="monospace" font-size="13" letter-spacing="4" opacity=".8">// DIGITAL PORTRAIT : 001</text>
+
+  <text x="180" y="333" fill="#e5e7eb" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="20" font-weight="700" text-anchor="middle">Arka Muhamad Rasyad</text>
+  <text x="180" y="358" fill="#94a3b8" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="11" text-anchor="middle">Embedded Systems · IoT · Builder</text>
+  <text x="180" y="397" fill="#5eead4" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="11" letter-spacing="1" text-anchor="middle">LEARN  /  BUILD  /  REPEAT</text>
 </svg>
