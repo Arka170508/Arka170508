@@ -1,49 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="434" viewBox="0 0 360 434" role="img" aria-labelledby="title desc">
-  <title id="title">Arka's falling ASCII portrait</title>
-  <desc id="desc">A portrait-shaped block of ASCII characters falls into place and remains still. No dots or spinning elements.</desc>
+  <title id="title">Arka's ASCII portrait</title>
+  <desc id="desc">A clear, static portrait made from ASCII characters.</desc>
   <rect x="0.5" y="0.5" width="359" height="433" rx="14" fill="#0f1620" stroke="#1f2a37" />
   <text x="32" y="38" fill="#5eead4" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="11" letter-spacing="1.5">ARKA / ASCII MATRIX</text>
 
-  <g fill="#5eead4" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="6.4" xml:space="preserve" text-anchor="middle">
-    <animateTransform attributeName="transform" type="translate" values="0 -275;0 0" dur="2.4s" calcMode="cubic" keyTimes="0;1" keySplines=".18 .72 .25 1" fill="freeze" />
-    <animate attributeName="opacity" values=".12;1" dur="2.4s" fill="freeze" />
-    <text x="180" y="91">
-      <tspan x="180" dy="0">                 .-======-.                  </tspan>
-      <tspan x="180" dy="7">             .-+#%%%%%%%%%%#+-.              </tspan>
-      <tspan x="180" dy="7">          .+#%%%%%%%%%%%%%%%%%%#+.           </tspan>
-      <tspan x="180" dy="7">        :#%%%%%%@@%%%%%%%%@@%%%%%%#:         </tspan>
-      <tspan x="180" dy="7">      :#%%%%%@@@%%%%%%%%%%%%@@@%%%%%#:       </tspan>
-      <tspan x="180" dy="7">     +%%%%%@@%%%%%%%%%%%%%%%%%%@@%%%%%+      </tspan>
-      <tspan x="180" dy="7">    *%%%%@@%%%%%%%%%%%%%%%%%%%%%%@@%%%%*     </tspan>
-      <tspan x="180" dy="7">   #%%%@@%%%%%%%%%########%%%%%%%%%@@%%%#    </tspan>
-      <tspan x="180" dy="7">  #%%%@%%%%%%%###**********###%%%%%%@%%%#    </tspan>
-      <tspan x="180" dy="7">  %%%@%%%%%%#****++++++++****#%%%%%%@%%%     </tspan>
-      <tspan x="180" dy="7"> #%%@%%%%%#***+++========+++***#%%%%%@%%#    </tspan>
-      <tspan x="180" dy="7"> #%%@%%%%#**++==----------==++**#%%%%%@%%#    </tspan>
-      <tspan x="180" dy="7"> #%%@%%%#**+==----::::::----==+**#%%%%@%%#    </tspan>
-      <tspan x="180" dy="7"> #%%@%%%#*++=---::......::---=++*#%%%%@%%#    </tspan>
-      <tspan x="180" dy="7"> #%%@%%%#*++=--::..      ..::--=++*#%%% @%%# </tspan>
-      <tspan x="180" dy="7"> #%%@%%%#*++=--::  .-==-.  ::--=++*#%%% @%%# </tspan>
-      <tspan x="180" dy="7"> #%%@%%%#*++=--::  #%%%%#  ::--=++*#%%%%@%%# </tspan>
-      <tspan x="180" dy="7"> #%%@%%%#*++=--::  '===='  ::--=++*#%%%%@%%# </tspan>
-      <tspan x="180" dy="7"> #%%@%%%#*++=--::..      ..::--=++*#%%%%@%%# </tspan>
-      <tspan x="180" dy="7"> #%%@%%%#**+==---::::::::::---==+**#%%%@@%%# </tspan>
-      <tspan x="180" dy="7"> #%%@%%%%#**++==------------==++**#%%%%@%%# </tspan>
-      <tspan x="180" dy="7">  #%%@%%%%%#***+++========+++***#%%%%%@%%#   </tspan>
-      <tspan x="180" dy="7">  #%%%@%%%%%%###**********###%%%%%%@%%%#    </tspan>
-      <tspan x="180" dy="7">   #%%%@@%%%%%%%%########%%%%%%%%@@%%%#     </tspan>
-      <tspan x="180" dy="7">    *%%%%@@%%%%%%%%%%%%%%%%%%%%%%@@%%%%*     </tspan>
-      <tspan x="180" dy="7">     +%%%%%@@%%%%%%%%%%%%%%%%%%@@%%%%%+      </tspan>
-      <tspan x="180" dy="7">      :#%%%%%@@@%%%%%%%%%%%%@@@%%%%%#:       </tspan>
-      <tspan x="180" dy="7">        :#%%%%%%@@%%%%%%%%@@%%%%%%#:         </tspan>
-      <tspan x="180" dy="7">          .+#%%%%%%%%%%%%%%%%%%#+.           </tspan>
-      <tspan x="180" dy="7">             .-+#%%%%%%%%%%#+-.              </tspan>
-      <tspan x="180" dy="7">                 .-======-.                  </tspan>
+  <g fill="#5eead4" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="8" xml:space="preserve" text-anchor="middle">
+    <text x="180" y="104">
+      <tspan x="180" dy="0">:::::::.......::.......:::::::</tspan>
+      <tspan x="180" dy="11.5">........................::::::</tspan>
+      <tspan x="180" dy="11.5">.......:..........     ....:::</tspan>
+      <tspan x="180" dy="11.5">:.........:..... .#*+.-= .=.::</tspan>
+      <tspan x="180" dy="11.5">:::::::...::..--*@+:+@:.. .:.:</tspan>
+      <tspan x="180" dy="11.5">:.:::::...:::.##.**++:--=#:::::</tspan>
+      <tspan x="180" dy="11.5">::::::::-:::::.....==-::=*::::</tspan>
+      <tspan x="180" dy="11.5">:::::::...::.......-+-=#::::::</tspan>
+      <tspan x="180" dy="11.5">:::::::....--:....::::::::::=-</tspan>
+      <tspan x="180" dy="11.5">::::::...--+:..::::::::.=.::.:</tspan>
+      <tspan x="180" dy="11.5">:::::..:--:...:::::.::-::::.::</tspan>
+      <tspan x="180" dy="11.5">..:.....:...::::::.+-::::::+=:</tspan>
+      <tspan x="180" dy="11.5">===:......::::::::...:::::::++</tspan>
+      <tspan x="180" dy="11.5">==-.......:-+==..:::::....:.++</tspan>
+      <tspan x="180" dy="11.5">-+........-+-==:==-=-.    ...=</tspan>
     </text>
   </g>
 
   <text x="180" y="333" fill="#e5e7eb" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="20" font-weight="700" text-anchor="middle">Arka Muhamad Rasyad</text>
   <text x="180" y="358" fill="#94a3b8" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="11" text-anchor="middle">Embedded Systems · IoT · Builder</text>
   <text x="180" y="397" fill="#5eead4" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="11" letter-spacing="1" text-anchor="middle">LEARN  /  BUILD  /  REPEAT</text>
-  <style>@media (prefers-reduced-motion: reduce) { animate, animateTransform { display: none; } }</style>
 </svg>
